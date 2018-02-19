@@ -1,0 +1,17 @@
+{
+    "name": "georgringer/surf-deployment",
+    "config": {
+        "optimize-autoloader": true,
+        "secure-http": true,
+        "bin-dir": "."
+    },
+    "require": {
+        "php": "^7",
+        "typo3/surf" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeorgRinger\\SurfDeployment\\": "src/"
+        }
+    }
+}

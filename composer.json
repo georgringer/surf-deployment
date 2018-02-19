@@ -1,13 +1,15 @@
 {
     "name": "georgringer/surf-deployment",
+    "description": "Collection of tasks for deployment",
     "config": {
         "optimize-autoloader": true,
         "secure-http": true,
         "bin-dir": "."
     },
+    "license": "GPL-3.0-or-later",
     "require": {
         "php": "^7",
-        "typo3/surf" : "dev-master"
+        "typo3/surf": "dev-master"
     },
     "autoload": {
         "psr-4": {
